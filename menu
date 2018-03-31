@@ -1,0 +1,13 @@
+echo WiFi Script Selector
+echo 1. Monitor Mode
+echo 2. Managed Mode
+echo 3. Scan AP's
+echo 4. Randomise MAC
+read -p 'Select Script: ' script
+
+case $script in
+1) sh mon ;;
+2) sh man ;;
+3) sh scan ;;
+4) sh mac ;;
+esac
