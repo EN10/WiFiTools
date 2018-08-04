@@ -31,3 +31,7 @@ Randomise MAC:   `mac`
 Uncompress xz
 
     unxz rockyou.txt.xz
+    
+Aircrack-ng
+
+    aircrack-ng ./-01.cap -w rockyou.txt
