@@ -27,3 +27,7 @@ Randomise MAC:   `mac`
     ifconfig wlan0 down
     macchanger -r wlan0
     ifconfig wlan0 up
+    
+Uncompress xz
+
+    unxz rockyou.txt.xz
